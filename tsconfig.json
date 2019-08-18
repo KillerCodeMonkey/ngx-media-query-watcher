@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "noImplicitAny": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "lib": ["es2016", "dom"],
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "type": [
+    "jasmine",
+    "node",
+    "core-js"
+  ],
+  "exclude": [
+    "node_modules",
+    "bundles",
+    "aot",
+    "dist"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true
+  }
+}

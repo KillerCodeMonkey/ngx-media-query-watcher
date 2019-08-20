@@ -30,7 +30,7 @@
     "ng",
     "ngx",
     "media query",
-    "mediaqurey",
+    "mediaquery",
     "watcher"
   ],
   "main": "./bundles/index.js",

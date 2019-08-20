@@ -75,7 +75,7 @@ packages: {
 
 - selector: `media-query-watcher` - add it as attribute to a html-tag
 - property/input: `query` - pass a css media query here
-- output: `mediaMatchChanged` - get notified when a media query matchs or not
+- output: `mediaMatchChanged` - get notified when a media query is matching or not
 
 ### Example
 

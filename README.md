@@ -48,7 +48,7 @@ import { MediaQueryWatcherModule } from 'ngx-media-query-watcher'
 })
 class YourModule { ... }
 ```
-- use `<divmedia-query-watcher query="(min-width: 992px)" (mediaMatchChanged)="handleChange($event)"></div>` in your templates to listen on a media query and handle a media query change.
+- use `<div media-query-watcher query="(min-width: 992px)" (mediaMatchChanged)="handleChange($event)"></div>` in your templates to listen on a media query and handle a media query change.
 
 ### For SystemJS builds (Config)
 

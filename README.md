@@ -1,4 +1,4 @@
-# ngx-media-query-watcher [![Build Status](https://github.com/KillerCodeMonkey/ngx-media-query-watcher/workflows/CI/badge.svg)](https://github.com/KillerCodeMonkey/ngx-media-query-watcher/actions/)
+# ngx-media-query-watcher [![Build Status](https://github.com/KillerCodeMonkey/ngx-media-query-watcher/workflows/CI/badge.svg)](https://github.com/KillerCodeMonkey/ngx-media-query-watcher/actions?query=branch%3Amaster)
 
 An angular directive to easy listen and handle on media query changes.
 

@@ -75,7 +75,7 @@
     "ng-packagr": "^9.1.0",
     "puppeteer": "^2.1.1",
     "reflect-metadata": "^0.1.13",
-    "rollup": "^1.20.0",
+    "rollup": "^2.6.1",
     "rxjs": "^6.5.4",
     "source-map-loader": "^0.2.4",
     "ts-helpers": "^1.1.2",

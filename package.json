@@ -76,7 +76,7 @@
     "puppeteer": "^5.2.1",
     "reflect-metadata": "^0.1.13",
     "rollup": "^2.26.9",
-    "rxjs": "^6.6.2",
+    "rxjs": "^6.6.3",
     "source-map-loader": "^1.1.0",
     "ts-helpers": "^1.1.2",
     "tslib": "^2.0.1",

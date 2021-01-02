@@ -19,9 +19,6 @@ ETH Wallet Address:
 LTC Wallet Address:
 `MFif769WSZ1g7ReAzzDE7TJVqtkFpmoTyT`
 
-XRP Wallet Address:
-`rXieaAC3nevTKgVu2SYoShjTCS2Tfczqx?dt=159046833`
-
 ## Installation
 
 - `npm install ngx-media-query-watcher`

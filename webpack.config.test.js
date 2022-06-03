@@ -15,21 +15,6 @@ let _config = {
       use: [{
         loader: 'ts-loader'
       }]
-    }, {
-      // instrument only testing sources with Istanbul, covers ts files
-      test: /\.ts$/,
-      enforce: 'post',
-      use: [{
-        loader: 'istanbul-instrumenter-loader',
-        options: {
-          embedSource: true,
-          noAutoWrap: true
-        }
-      }],
-      exclude: [
-        /node_modules/,
-        /\.(e2e|spec)\.ts$/
-      ]
     }]
   }
 }

@@ -19,10 +19,8 @@ export class MediaQueryWatcherDirective implements AfterViewInit, OnInit, OnDest
   canMatchMedia = !!window.matchMedia
 
   ngOnDestroy() {
-    if (this.mq) {
-      // Remove event listener on destroy
-      this.mq.removeListener(this.checkMediaQuery.bind(this))
-    }
+    // Remove event listener on destroy
+    this.mq?.removeEventListener('change', this.checkMediaQuery.bind(this))
   }
 
   // Init onInit
@@ -30,7 +28,7 @@ export class MediaQueryWatcherDirective implements AfterViewInit, OnInit, OnDest
     if (this.canMatchMedia && this.query) {
       this.mq = window.matchMedia(this.query)
       // Listen on changes
-      this.mq.addListener(this.checkMediaQuery.bind(this))
+      this.mq.addEventListener('change', this.checkMediaQuery.bind(this))
     }
   }
 
@@ -44,9 +42,9 @@ export class MediaQueryWatcherDirective implements AfterViewInit, OnInit, OnDest
 
   ngOnChanges(changes: SimpleChanges) {
     if (!changes.query.isFirstChange() && this.mq) {
-      this.mq.removeListener(this.checkMediaQuery.bind(this))
+      this.mq.removeEventListener('change', this.checkMediaQuery.bind(this))
       this.mq = window.matchMedia(changes.query.currentValue)
-      this.mq.addListener(this.checkMediaQuery.bind(this))
+      this.mq.addEventListener('change', this.checkMediaQuery.bind(this))
       this.checkMediaQuery(this.mq)
     }
   }

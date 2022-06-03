@@ -27,12 +27,12 @@ describe('MediaQueryWatcherDirective', () => {
   describe('#ngOnDestoy', () => {
     it('removes listener', () => {
       fixture.detectChanges()
-      spyOn(component.mediaQueryWatcher!.mq!, 'removeListener')
+      spyOn(component.mediaQueryWatcher!.mq!, 'removeEventListener')
 
       component.mediaQueryWatcher!.ngOnDestroy()
       fixture.detectChanges()
 
-      expect(component.mediaQueryWatcher!.mq!.removeListener).toHaveBeenCalled()
+      expect(component.mediaQueryWatcher!.mq!.removeEventListener).toHaveBeenCalled()
     })
 
     it('does nothing when no mq', () => {

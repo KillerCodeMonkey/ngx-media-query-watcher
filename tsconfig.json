@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "alwaysStrict": true,
-    "target": "es5",
+    "target": "es2015",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": false,
@@ -13,7 +13,7 @@
     "outDir": "./dist",
     "declaration": true,
     "experimentalDecorators": true,
-    "lib": ["es2016", "dom"],
+    "lib": ["es2015", "dom"],
     "suppressImplicitAnyIndexErrors": true
   },
   "type": [
@@ -29,6 +29,8 @@
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
-    "skipTemplateCodegen": true
+    "skipTemplateCodegen": true,
+    "alwaysStrict": true,
+    "strictTemplates": true
   }
 }

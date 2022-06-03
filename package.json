@@ -17,7 +17,7 @@
   },
   "scripts": {
     "lint": "tslint --force \"src/**/*.ts\"",
-    "build": "ng-packagr -p package.json",
+    "build": "ng-packagr -p ng-package.json",
     "pretest": "npm run lint",
     "test": "./node_modules/.bin/karma start"
   },
@@ -33,18 +33,9 @@
     "mediaquery",
     "watcher"
   ],
-  "main": "./bundles/index.js",
-  "module": "./src/media-query-watcher.module.js",
-  "typings": "index.d.ts",
-  "ngPackage": {
-    "lib": {
-      "entryFile": "index.ts"
-    }
-  },
   "browserslist": [
     "defaults"
   ],
-  "$schema": "./node_modules/ng-packagr/package.schema.json",
   "peerDependencies": {
     "@angular/core": "^14.0.0",
     "rxjs": "^7.5.5"

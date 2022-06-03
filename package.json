@@ -1,7 +1,7 @@
 {
   "name": "ngx-media-query-watcher",
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": {
     "name": "Bengt Weiße"
   },
@@ -13,7 +13,7 @@
     "url": "https://github.com/KillerCodeMonkey/ngx-media-query-watcher"
   },
   "engines": {
-    "node": ">= 10"
+    "node": ">= 16"
   },
   "scripts": {
     "lint": "tslint --force \"src/**/*.ts\"",

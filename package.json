@@ -63,7 +63,7 @@
     "karma-webpack": "^5.0.0",
     "loader-utils": "^3.2.0",
     "ng-packagr": "^14.0.0",
-    "puppeteer": "^14.2.1",
+    "puppeteer": "^14.4.0",
     "reflect-metadata": "^0.1.13",
     "rollup": "^2.75.5",
     "rxjs": "^7.5.5",

@@ -41,12 +41,12 @@
     "rxjs": "^7.5.5"
   },
   "devDependencies": {
-    "@angular/common": "^14.0.0",
-    "@angular/compiler": "^14.0.0",
+    "@angular/common": "^14.2.3",
+    "@angular/compiler": "^14.2.3",
     "@angular/compiler-cli": "^14.0.0",
-    "@angular/core": "^14.0.0",
-    "@angular/platform-browser": "^14.0.0",
-    "@angular/platform-browser-dynamic": "^14.0.0",
+    "@angular/core": "^14.2.3",
+    "@angular/platform-browser": "^14.2.3",
+    "@angular/platform-browser-dynamic": "^14.2.3",
     "@types/jasmine": "^4.0.3",
     "@types/node": "^16",
     "ajv": "^8.11.0",

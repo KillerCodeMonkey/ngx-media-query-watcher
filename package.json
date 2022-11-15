@@ -61,7 +61,7 @@
     "karma-mocha-reporter": "^2.2.5",
     "karma-sourcemap-loader": "^0.3.8",
     "karma-webpack": "^5.0.0",
-    "loader-utils": "^3.2.0",
+    "loader-utils": "^3.2.1",
     "ng-packagr": "^14.0.0",
     "puppeteer": "^14.2.1",
     "reflect-metadata": "^0.1.13",
